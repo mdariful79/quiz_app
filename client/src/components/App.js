@@ -1,13 +1,11 @@
-
 import '../styles/App.css';
 
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 /** import components */
 import Main from './Main';
 import Quiz from './Quiz';
 import Result from './Result';
-
 
 /** react routes */
 const router = createBrowserRouter([
@@ -17,13 +15,14 @@ const router = createBrowserRouter([
   },
   {
     path : '/quiz',
-    element : <Quiz />
+    element : <Quiz></Quiz>
   },
   {
     path : '/result',
-    element : <Result />
+    element : <Result></Result>
   },
 ])
+
 function App() {
   return (
     <>

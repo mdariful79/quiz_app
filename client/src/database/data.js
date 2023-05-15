@@ -6,14 +6,14 @@ export default [
             'Dennis Ritchie',
             'Ken Thompson',
             'Brian Kernighan',
-            ' Bjarne Stroustrup',
+            'Bjarne Stroustrup',
         ]
     },
     {
         id: 2,
         question : "Which of the following is correct about this pointer in C++?",
         options : [
-            'document.this pointer is passed as a hidden argument in all static variables of a class()',
+            'this pointer is passed as a hidden argument in all static variables of a class()',
             'this pointer is passed as a hidden argument in all the functions of a class',
             'this pointer is passed as a hidden argument in all non-static functions of a class',
             'this pointer is passed as a hidden argument in all static functions of a class',
@@ -26,27 +26,29 @@ export default [
             'double',
             'float',
             'int',
-            'int',
+            'bool',
         ]
     },
     {
         id: 4,
-        question : "What does the toString() method returnBy default, all the files in C++ are opened in _________ mode?",
+        question : "Which concept allows you to reuse the written code in C++?",
         options : [
-            'Binary',
-            'VTC',
-            'Text',
-            'ISCII',
+            'Inheritance',
+            'Polymorphism',
+            'Abstraction',
+            'Encapsulation',
         ]
     },
     {
         id: 5,
-        question : "What is the size of wchar_t in C++?",
+        question : "Which of the following is a correct identifier in C++?",
         options : [
-            'Based on the number of bits in the system',
-            '2 or 4',
-            '4',
-            '2',
+            'VAR_1234',
+            '$var_name',
+            '7VARNAME',
+            '7var_name',
         ]
     }
 ]
+
+export const answers = [3, 2, 3, 0, 0];
