@@ -32,3 +32,10 @@
     border-radius: 3px;
     font-size: 1em;
 }
+.footer{
+    display: flex;
+    margin-top: 250px;
+    justify-content: center;
+    font-weight: 500;
+    color: aqua;
+}
